@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#mainbody{
+    min-height: 84vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav_element{
+    list-style:none;
+    padding-left: 5vw;
+    
+}
+
+.nav_element:hover{
+    font-weight: bolder;
+}
+
+#ul_id{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#clock{
+    background-color: white;
+    border: 1px solid rgb(230, 227, 227) ;
+    border-radius: 10px;
+    box-shadow: rgb(230, 227, 227) 7px 7px;
+    height: 75vh;
+    width: 92vw;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.heading{
+    display:flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.minicontainer{
+    background-color: white;
+    border: 1px solid rgb(230, 225, 225);
+    height: 8vh;
+    width: 5vw;
+    margin: 3vw 3vw;
+    text-align: center;
+    font-size: 3.5vw;
+    
+}
+
+.coloun{
+    width: 1vw;
+    /* margin-top: 33px; */
+    border-color: white;
+}
+
+#date{
+    width: 91vw;
+    margin: 5vh 0vw;
+    margin-right: 4vw;
+    height: 10vh;
+    border-color: white;
+}
+#fourth{
+    display: flex;
+    flex-direction: column;
+}
+#image{
+    height: 24vh;
+    width: 24vh;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(230, 227, 227) 4px 4px;
+}
+
+.footer{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    font-size: 3vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5vw;
+}
+
+/* ********************8*************************************************** */
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 18vw;
+    width: 18vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour_cl, #minute_cl, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour_cl{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute_cl{
+    width: 1.6%;
+    height: 31%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
+
+
+.button_block{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 5vh;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 3px;
+    
+    
+}
+
+.button{
+    height: 5vh;
+    width: 100px;
+    background-color: black;
+    color: white;
+    
+}
+/* ********************8*************************************************** */
+
+@media screen and (max-width :  1000px){
+    
+    .minicontainer{
+        height: 6vh;
+        width: 6vh;
+        font-size: 4.5vh;
+    }
+
+    #clockContainer{
+        height: 40vw;
+        width: 40vw;
+    }
+    #ul_id{
+        font-size: large;
+    }
+
+    #date{
+        font-size: larger;
+    }
+
+    .footer{
+        font-size: large;
+    }
+}

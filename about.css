@@ -1,0 +1,18 @@
+#second_about{
+    margin: 5vh 0vw;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+.items{
+    font-size: large;
+    padding-left: 5vw;
+    margin-top: 1vh 0vw;
+    list-style: none;
+}
+#para{
+    font-size:large;
+}
+#para2{
+    font-size: large;
+}

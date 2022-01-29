@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav>
+            <ul id="ul_id">
+                <li class="nav_element" id="home"><a href="index.html">Home</a></li>
+                <li class="nav_element" id="about"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- **************************************************************************************** -->
+    <div id="mainbody">
+        <div id="clock">
+            <div class="container" id="first">
+                <h1 class="heading">CLOCK</h1>
+            </div>
+            <div class="container" id="second">
+                <div class="minicontainer" id="hour"></div>
+                <div class="minicontainer , coloun">:</div>
+                <div class="minicontainer" id="minute"></div>
+                <div class="minicontainer , coloun">:</div>
+                <div class="minicontainer" id="Sec"></div>
+            </div>
+
+            <div class="container" id="third">
+                <div class="minicontainer" id="date">
+
+                </div>
+            </div>
+            <div class="button_block">
+                <div class="a">
+                    <button class="button" id="digital" onclick="change_digtal()" >Digital Clock</button>
+                </div>
+                <div class="a">
+                    <button class="button" id="analog" onclick="change_analog()" >Analog Clock</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- **************************************************************************************** -->
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            Copyrights&copy and Design by Abhay 
+        </div>
+    </footer>
+
+</body>
+
+</html>
